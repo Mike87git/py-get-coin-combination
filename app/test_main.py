@@ -15,8 +15,8 @@ def test_get_coin_combination_mixed_coins() -> None:
     # 1 penny + 1 nickel
     assert get_coin_combination(17) == [2, 1, 1, 0]
     # 2 pennies + 1 nickel + 1 dime
-    assert get_coin_combination(30) == [0, 0, 1, 1]
-    # 1 dime + 1 quarter
+    assert get_coin_combination(30) == [0, 1, 0, 1]
+    # 1 nickel + 1 quarter
     assert get_coin_combination(41) == [1, 1, 1, 1]
     # 1 penny + 1 nickel + 1 dime + 1 quarter
 
